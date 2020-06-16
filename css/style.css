@@ -399,3 +399,85 @@ img {
      opacity: .65;
 }
 /* Tours styles end */
+
+/* Top places styles start */
+
+.top {
+     margin-bottom: 86px;
+}
+
+.top__title {
+     margin-bottom: 54px;
+}
+
+.top__cards {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 57px;
+}
+
+.top__card-pic {
+     position: relative;
+     margin-bottom: 45px;
+}
+
+.top__card-stats {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: flex-end;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background: rgba(21, 24, 36, 0.6);
+     padding: 16px 25px;
+}
+
+.top__card-title {
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 24px;
+     color: #FFFFFF;
+     margin-right: auto;
+}
+
+.top__card-likes {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #FFFFFF;
+     padding-right: 20px;
+     background: url(../img/svg/like-ico.svg) no-repeat right center;
+     margin-right: 14px;
+}
+
+.top__card-comments {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #FFFFFF;
+     padding-right: 23px;
+     background: url(../img/svg/comm-ico.svg) no-repeat right center;
+}
+
+.top__card-desk {
+     font-size: 16px;
+     line-height: 24px;
+     margin-bottom: 31px;
+}
+
+.top__card-more {
+     font-size: 16px;
+     line-height: 19px;
+     color: #FFF;
+     background-color: #006DFE;
+     padding: 12px 19px;
+     text-decoration: none;
+     margin-top: auto;
+}
+
+.top__card-more:hover, .top__card-more:focus {
+     background-color: #0e66da;
+}
+/* Top places styles end */
