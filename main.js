@@ -8,3 +8,12 @@
         }
     }
 }());
+
+// Burger handler
+
+const headerNav = document.querySelector('.header__nav')
+
+
+const burger = document.querySelector('.burger').addEventListener('click', () => headerNav.classList.add('header__nav_active'))
+
+const burgerClose = document.querySelector('.header__nav-close').addEventListener('click', () => headerNav.classList.remove('header__nav_active'))
